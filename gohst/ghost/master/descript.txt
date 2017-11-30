@@ -1,0 +1,29 @@
+charset,Shift_JIS
+
+
+
+craftman,Kuro Usada
+
+craftmanw,Kuro Usada
+
+craftmanurl,http://kurousada.ga/
+
+readme,readme.txt
+
+
+
+name,gohst
+
+id,gohst
+
+type,ghost
+
+
+
+sakura.name,サンプル
+kero.name,サンプル
+
+
+
+shiori,shiori.dll
+

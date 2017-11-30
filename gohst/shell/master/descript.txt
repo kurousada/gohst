@@ -1,0 +1,11 @@
+charset,Shift_JIS
+
+type,shell
+name,master
+
+craftman,catbottle
+craftmanw,ƒ{ƒgƒ‹”L
+craftmanurl,http://catbottle.sakura.ne.jp/
+
+sakura.balloon.offsetx,15
+sakura.balloon.offsety,50
