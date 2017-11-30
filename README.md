@@ -1,7 +1,7 @@
 Gohst
 ===
 
-Sample Ghost for Ukagaka written in Go with the power of cgo, for my blog post "[Goを使ってDLLをクロスコンパイル on Linux](http://kurousada.ga/posts/cross-compile-dll-using-golang-on-linux/)", part of [Go Advent Calender 2017（その4）](https://qiita.com/advent-calendar/2017/go4).
+Sample Ghost for Ukagaka written in Go with the power of cgo, for my blog post "[Goを使ってDLLをクロスコンパイル on Linux](http://kurousada.ga/posts/cross-compile-dll-using-golang-on-linux/)", a part of [Go Advent Calender 2017（その4）](https://qiita.com/advent-calendar/2017/go4).
 
 ![Screenshot](screenshot.png)
 
@@ -13,7 +13,7 @@ Sample Ghost for Ukagaka written in Go with the power of cgo, for my blog post "
 ## 機能
 
  - かわいい女の子のソロゴーストです。
- - [奈良阪某](https://narazaka.net/)さんの[github.com/Narazaki/shiorigo](https://github.com/Narazaki/shiorigo)を使っています。
+ - [奈良阪某](https://narazaka.net/)さんの[github.com/Narazaka/shiorigo](https://github.com/Narazaka/shiorigo)を使っています。
  - だいたい15〜30秒に一回ぐらいの頻度でランダムトークします。ネタが少ないのは仕様です。
  - 起動時と終了時にも話します。
  - その他の機能はありません。つついても撫でても無反応です。~~お触りし放題！~~
@@ -37,7 +37,7 @@ Wine 上の SSP だとなぜか 2回インストールしようとして「上�
 
  - Go 1.9.2（たぶん他のバージョンでもWindowsでの`-buildmode=c-archieve`をサポートしていればコンパイルできます）
  - GCC 5.3.1（たぶん他のバージョンでもコンパイルできます）
- - [github.com/Narazaki/shiorigo](https://github.com/Narazaki/shiorigo)
+ - [github.com/Narazaka/shiorigo](https://github.com/Narazaka/shiorigo)
 
 Linux/MacでもMinGWを用意すればコンパイルできます。
 詳しくは「[Goを使ってDLLをクロスコンパイル on Linux](http://kurousada.ga/posts/cross-compile-dll-using-golang-on-linux/)」を見てください。
