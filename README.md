@@ -96,6 +96,6 @@ Makefile……？なにそれおいし(ry
 ## License
 
 シェル部分（`descript.txt`と`surfaces.txt`を除く）は[ボトル猫](http://catbottle.sakura.ne.jp/)さんの著作物です。
-また、[Gopher](https://blog.golang.org/gopher)は[Renee French](Renee French)さんによってデザインされました。
+また、[Gopher](https://blog.golang.org/gopher)は[Renee French](http://reneefrench.blogspot.com/)さんによってデザインされました。
 
 そのほかの[Kuro Usada](http://kurousada.ga/)が作った部分はMIT Licenseにしておきます。
