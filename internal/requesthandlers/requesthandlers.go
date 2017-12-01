@@ -117,8 +117,8 @@ func OnLoad(path string) error {
 		Handlers[event] = CreateGetHandlerOf(value)
 	}
 
-	Handlers["OnBoot"] = CreateGetHandlerOf("\\0\\s[1]これは Go で栞を作るサンプルだから、\\w2過度な期待はしないよーに。\\e")
-	Handlers["OnClose"] = CreateGetHandlerOf("\\0\\s[5]じゃ、\\w2えんいー！\\_w[500]\\e")
+	Handlers["OnBoot"] = CreateGetHandlerOf("\\1\\s[10]\\0\\s[1]これは Go で栞を作るサンプルだから、\\w2過度な期待はしないよーに。\\e")
+	Handlers["OnClose"] = CreateGetHandlerOf("\\1\\s[10]\\0\\s[5]じゃ、\\w2えんいー！\\_w[500]\\e")
 	Handlers["OnSecondChange"] = func(req shiori.Request) (shiori.Response, error) {
 		var err error
 		SecondsFromLastTalk += 1
@@ -129,9 +129,9 @@ func OnLoad(path string) error {
 			}
 			SecondsFromLastTalk = 0
 			return ResponseOneOf(Talks{
-				"\\0\\s[0]…\\w1…\\w1\\s[3]ﾆﾔﾘ\\e",
-				"\\0\\s[4]ランダムトークはまだ少ししかないのよ\\w1…\\w1…\\e",
-				"\\0\\s[2]本当に何もしゃべることがないわね\\w1…\\w1…\\e",
+				"\\1\\s[10]\\0\\s[0]…\\w1…\\w1\\s[3]ﾆﾔﾘ\\e",
+				"\\1\\s[10]\\0\\s[4]ランダムトークはまだ少ししかないのよ\\w1…\\w1…\\e",
+				"\\1\\s[10]\\0\\s[2]本当に何もしゃべることがないわね\\w1…\\w1…\\e",
 			}), err
 		}
 		return ResponseNoContent(), err

@@ -139,7 +139,7 @@ func unload() C.BOOL {
  * レスポンスも簡便のため一律に UTF-8 で返しています。
  * Shift_JIS で返したければ、strings パッケージをインポートして以下を追加します。
  *
- *  res.Headers["Charset"] = "UTF-8"
+ *  res.Headers["Charset"] = "Shift_JIS"
  *  res_str = readerstream.New(strings.NewReader(res_str)).ToShiftJIS().String()
  */
 //export request

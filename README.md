@@ -1,11 +1,11 @@
 Gohst
 ===
 
-Sample Ghost for Ukagaka written in Go with the power of cgo, for my blog post "[Goを使ってDLLをクロスコンパイル on Linux](http://kurousada.ga/posts/cross-compile-dll-using-golang-on-linux/)", a part of [Go Advent Calender 2017（その4）](https://qiita.com/advent-calendar/2017/go4).
+Sample Ghost for Ukagaka written in Go with the power of cgo, for my blog post "[Cross Compile DLL using Golang on Linux](http://kurousada.ga/posts/tech/cross-compile-dll-using-golang-on-linux/)", a part of [Go Advent Calender 2017 (Part 4)](https://qiita.com/advent-calendar/2017/go4).
 
 ![Screenshot](screenshot.png)
 
-[Go Advent Calender 2017（その4）](https://qiita.com/advent-calendar/2017/go4)の一日目の記事である「[Goを使ってDLLをクロスコンパイル on Linux](http://kurousada.ga/posts/cross-compile-dll-using-golang-on-linux/)」のサンプルゴーストです。
+[Go Advent Calender 2017（その4）](https://qiita.com/advent-calendar/2017/go4)の一日目の記事である「[Goを使ってDLLをクロスコンパイル on Linux](http://kurousada.ga/posts/tech/cross-compile-dll-using-golang-on-linux/)」のサンプルゴーストです。
 
 「[伺か](https://ja.wikipedia.org/wiki/伺か)」というデスクトップアプリケーションに使われるキャラクターの、脳に当たる部分である「[栞]()」をGoで書きました。
 記事で説明したものを基に、ランダムトークしてくれるように書き足しています。

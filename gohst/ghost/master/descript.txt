@@ -20,8 +20,8 @@ type,ghost
 
 
 
-sakura.name,サンプル
-kero.name,サンプル
+sakura.name,Pink
+kero.name,Gopher
 
 
 

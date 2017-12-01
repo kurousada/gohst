@@ -36,5 +36,5 @@ element1,overlay,002_000d.png,0,0
 
 surface10
 {
-element0,overlay,dummy.png,0,0
+element0,overlay,gopher.png,0,0
 }
