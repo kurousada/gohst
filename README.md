@@ -12,7 +12,7 @@ Sample Ghost for Ukagaka written in Go with the power of cgo, for my blog post "
 
 ## 機能
 
- - かわいい女の子のソロゴーストです。
+ - かわいい女の子 ~~のソロゴースト~~ とGopherくんです。
  - [奈良阪某](https://narazaka.net/)さんの[github.com/Narazaka/shiorigo](https://github.com/Narazaka/shiorigo)を使っています。
  - だいたい15〜30秒に一回ぐらいの頻度でランダムトークします。ネタが少ないのは仕様です。
  - 起動時と終了時にも話します。
@@ -91,10 +91,11 @@ Makefile……？なにそれおいし(ry
 
  - テストを書く（`go test`とテスト用のベースウェアエミュレータで書ける？）
  - ゴーストのトークや反応、機能を増やす
- - 相方を見つける（ソロだと基本的に独り言かユーザーさんに話しかける必要があるので……）
+ - ~~相方を見つける（ソロだと基本的に独り言かユーザーさんに話しかける必要があるので……）~~ *Gopherくんが相方です！*
 
 ## License
 
 シェル部分（`descript.txt`と`surfaces.txt`を除く）は[ボトル猫](http://catbottle.sakura.ne.jp/)さんの著作物です。
+また、[Gopher](https://blog.golang.org/gopher)は[Renee French](http://reneefrench.blogspot.com/)さんによってデザインされました。
 
 そのほかの[Kuro Usada](http://kurousada.ga/)が作った部分はMIT Licenseにしておきます。

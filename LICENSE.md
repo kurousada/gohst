@@ -1,4 +1,5 @@
 This license and copyright statements must not be applied to images and some other "SHELL" related stuff (except "descript.txt" and "surfaces.txt") which are made by "catbottle" (http://catbottle.sakura.ne.jp/), their copyrights' holder.
+Also, Gopher ("gohst/shell/master/gopher.png") is designed by Renee French (http://reneefrench.blogspot.com/), thus he must be excluded from the range of this license too.
 
 Copyright 2017 Kuro Usada.
 
