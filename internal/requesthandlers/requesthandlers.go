@@ -156,8 +156,8 @@ func OnRequest(req shiori.Request) (shiori.Response, error) {
 
 	// ID ヘッダにはイベント名が入っています。
 	// イベントに対応するハンドラが定義されていれば呼び出します。
-	if req.Headers["ID"] != "" {
-		event := req.Headers["ID"]
+	event := req.Headers["ID"]
+	if event != "" {
 		handler := Handlers[event]
 		if handler != nil {
 			res, err = handler(req)

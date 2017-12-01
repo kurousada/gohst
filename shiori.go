@@ -74,7 +74,7 @@ func load(h C.HGLOBAL, length C.long) C.BOOL {
 	//
 	log.SetFlags(log.Ldate | log.Ltime | log.Lmicroseconds | log.Lshortfile)
 	log.SetOutput(os.Stdout)
-	path := "shioringo.log"
+	path := "shiori.log"
 	logFile, err = win32file.OpenFile(path, win32file.O_WRONLY)
 	if err != nil {
 		fmt.Println(err.Error())
