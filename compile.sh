@@ -46,6 +46,8 @@ if [ $RET = 0 ]; then
     #
     #################################################
     
+    rm -r gohst/ghost/master/profile
+    rm -r gohst/shell/master/profile
     zip -r -q -l gohst.zip gohst
 
 RET="$?"
